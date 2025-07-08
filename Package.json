@@ -1,0 +1,16 @@
+{
+    "name": "task-tracker-ts",
+    "version": "1.0.0",
+    "type": "module", // Módulos ES compatibles con Node.js 22
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "ts-node src/index.ts",
+        "serve": "node --experimental-specifier-resolution=node src/index.ts"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.2",
+        "@types/node": "^22.0.0"
+    }
+}
