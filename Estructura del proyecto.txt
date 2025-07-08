@@ -1,0 +1,7 @@
+task-tracker-ts-node22/
+├── src/
+│   └── index.ts        # Código principal en TypeScript
+├── tasks.json          # Archivo donde se guardan las tareas
+├── tsconfig.json       # Configuración de TypeScript
+├── package.json        # Metadatos y scripts del proyecto
+└── README.md           # Documentación rápida
